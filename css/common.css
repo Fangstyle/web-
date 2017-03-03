@@ -1,0 +1,51 @@
+/*顶部search bar的抽象*/
+.search_bar{
+    float: left;
+    position: relative;
+}
+.search_bar input {
+    width: 300px;
+    height: 45px;
+    text-indent: 45px;
+    position: relative;
+    float: left;
+}
+.search_bar  a {
+    display: block;
+    width: 35px;
+    position: relative;
+    background-color: #EBEBEB;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+}
+.search_bar>i {
+    font-size: 18px;
+    color: #F26C4F;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    z-index: 100;
+}
+.search_bar  a i {
+    font-size: 17px;
+    color: #9C9C9C;
+}
+
+/*placeholder字体颜色*/
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:#9D9D9D;
+    font-size: 11px;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#9D9D9D;
+    font-size: 11px;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#9D9D9D;opacity:1;
+    font-size: 11px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#9D9D9D !important;
+    font-size: 11px;
+}
